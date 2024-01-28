@@ -39,7 +39,7 @@ currencies = ('<:Retcoins:1018448204364263434>','<:Retgems:1036311033364627559>'
 
 cd_mapping = commands.CooldownMapping.from_cooldown(1,10,commands.BucketType.user)
 
-os.chdir(os.path.normcase('/home/runner/Michi'))
+os.chdir(os.path.normcase('/home/runner/Michiko'))
 
 @client.event
 async def on_ready():
