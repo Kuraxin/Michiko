@@ -10,6 +10,9 @@ import random
 from discord.ext import commands
 import itertools
 
+emojis = ('<:Cooldown:954434657947107348>','<:Yes:933934172299468810>','<:No:933934032192962600>','<a:Loading:1104249319231602689>')
+currencies = ('<:Retcoins:1018448204364263434>','<:Retgems:1036311033364627559>')
+
 async def get_bank_data():
   with open('mainbank.json','r') as f:
     users = json.load(f)
